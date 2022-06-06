@@ -1,25 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
 }
-body{
+
+body {
     font-family: 'Poppins', sans-serif, Arial, Helvetica;
-    color: black;
     display: flex;
 }
 
-.left-side{
-    width: 40%;
-    height: 100vh;
-    display:flex;
-    background: url(/images/Background.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
 }
 
-.right-side{
-    width: 60%;
+.left-side {
+    width: 30%;
     height: 100vh;
-    background-color: rgb(144, 151, 4);
+    background: url(images/Background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-darkout {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.forest-icon p {
+    font-size: 100px;
+    margin-right: 20px;
+}
+
+.left-text {
+    width: 70%;
+}
+
+
+.right-side {
+    width: 70%;
+    height: 100vh;
+    background-color: rgb(177, 134, 70);
 }
