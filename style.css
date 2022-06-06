@@ -160,7 +160,7 @@ p{
     }
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (max-width: 750px) {
     .right-side {
         width: 60%;
         height: 100vh;
@@ -202,6 +202,7 @@ p{
     width: 100%;
     height: 40vh;
     padding: 10px;
+    justify-content: center;
     border-top: 2px solid rgb(186, 0, 0);
     border-bottom: 2px solid rgb(186, 0, 0);
     background-image: linear-gradient(135deg, transparent 0%, transparent 21%,rgba(253, 225, 42,0.5) 21%, rgba(253, 225, 42,0.5) 48%,transparent 48%, transparent 95%,rgba(247, 141, 81,0.5) 95%, rgba(247, 141, 81,0.5) 100%),linear-gradient(45deg, transparent 0%, transparent 6%,rgb(253, 225, 42) 6%, rgb(253, 225, 42) 13%,rgb(249, 169, 68) 13%, rgb(249, 169, 68) 32%,transparent 32%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
@@ -214,7 +215,6 @@ form{
 .row{
     display: flex;
     flex-direction: row;
-
 }
 label{
     font-size: 1em;
